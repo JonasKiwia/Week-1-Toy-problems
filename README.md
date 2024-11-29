@@ -6,9 +6,9 @@ This repository contains solutions to three JavaScript challenges. These problem
 
 /challenges
 │
-├── challenge1.js    // Student Grade Generator
-├── challenge2.js    // Speed Detector
-├── challenge3.js    // Net Salary Calculator
+├── challenge 1.js    // Student Grade Generator
+├── challenge 2.js    // Speed Detector
+├── challenge 3.js    // Net Salary Calculator
 └── README.md        // Documentation
 
 ## Challenges
