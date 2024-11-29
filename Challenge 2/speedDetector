@@ -1,0 +1,22 @@
+//Speed Detector
+
+function checkSpeed(speed) {
+    const speedLimit = 70; // Speed limit
+    const kmPerDemeritPoint = 5; // Points for every 5 km/s above the limit
+
+    if (speed <= speedLimit) {
+        console.log("Ok");
+    } else {
+        const demeritPoints = Math.floor((speed - speedLimit) / kmPerDemeritPoint);
+
+        if (demeritPoints > 12) {
+            console.log("License suspended");
+        } else {
+            console.log(`Points: ${demeritPoints}`);
+        }
+    }
+}
+
+
+let speed = parseInt(prompt("Enter the speed of the car: "));
+checkSpeed(speed);
